@@ -17,4 +17,5 @@ An encrypted proxy service program
 2. Decompress and execute the binary. A wizard will guide you to generate an new config.
 3. Re-execute the binary to start service.
 4. Add a proxy line in Surge
+
 `Proxy = snell, [SERVER ADDRESS], [GENERATED PORT], psk=[GENERATED PSK], obfs=http`
