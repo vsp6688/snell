@@ -20,3 +20,7 @@ An encrypted proxy service program
 4. Add a proxy line in Surge  (The latest beta version is required)
 
 `Proxy = snell, [SERVER ADDRESS], [GENERATED PORT], psk=[GENERATED PSK], obfs=http`
+
+## Opens Source
+
+We haven't decided whether to open source the project for complicated reasons.
