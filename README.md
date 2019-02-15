@@ -16,6 +16,6 @@ An encrypted proxy service program
 1. Download the binary from the [Release page](https://github.com/surge-networks/snell/releases/latest).
 2. Decompress and execute the binary. A wizard will guide you to generate a new config.
 3. Re-execute the binary to start service.
-4. Add a proxy line in Surge
+4. Add a proxy line in Surge  (The latest beta version is required)
 
 `Proxy = snell, [SERVER ADDRESS], [GENERATED PORT], psk=[GENERATED PSK], obfs=http`
