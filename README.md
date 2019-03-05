@@ -7,7 +7,7 @@ An encrypted proxy service program
 * Extreme performance.
 * Single binary with zero dependency.
 * A wizard to help you start.
-* Traffic obfuscating is embedded. (Only HTTP in the current version)
+* Traffic obfuscating is embedded. (HTTP & TLS)
 * Proxy server will report remote errors to client if encounters. Clients may choose countermeasures for different scenarios.
 * Protocol is ready for multiple users ACL. (No implementation yet)
 * Protocol is ready for cipher/version auto-negotiation. (No implementation yet)
