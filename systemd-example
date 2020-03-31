@@ -8,6 +8,9 @@ User=nobody
 Group=nogroup
 LimitNOFILE=32768
 ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=snell-server
 
 [Install]
 WantedBy=multi-user.target
