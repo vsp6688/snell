@@ -5,12 +5,13 @@ An encrypted proxy service program
 ## Highlights
 
 * Extreme performance.
-* Single binary with zero dependency.
+* Snell v2 supports reusing TCP connections to improve performance and reduce latency.
+* Single binary with zero dependency. (except glibc)
 * A wizard to help you start.
 * Traffic obfuscating is embedded. (HTTP & TLS)
 * Proxy server will report remote errors to client if encounters. Clients may choose countermeasures for different scenarios.
+* The server-side program is able to auto-negotiate cipher and version with clients.
 * Protocol is ready for multiple users ACL. (No implementation yet)
-* Protocol is ready for cipher/version auto-negotiation. (No implementation yet)
 
 ## Quickstart
 
