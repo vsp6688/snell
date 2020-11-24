@@ -12,15 +12,15 @@ ln -s /etc/init.d/rc.local  /etc/rc.local
 
 update-rc.d rc.local start 99 2 3 4 5 . stop 99 0 1 6 .
 
-nano /etc/rc.local`
+nano /etc/rc.local
 
-`#! /bin/sh -e
+#! /bin/sh -e
 
 sudo -i ./snell-server
 
-exit 0`
+exit 0
 
-`wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh`
 
