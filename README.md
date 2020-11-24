@@ -1,6 +1,30 @@
-# snell
+# snell install
 
-An encrypted proxy service program
+`apt update
+
+https://github.com/surge-networks/snell/releases/download/v2.0.3/snell-server-v2.0.3-linux-amd64.zip
+
+touch /etc/init.d/rc.local
+
+chmod +x /etc/init.d/rc.local
+
+ln -s /etc/init.d/rc.local  /etc/rc.local
+
+update-rc.d rc.local start 99 2 3 4 5 . stop 99 0 1 6 .
+
+nano /etc/rc.local`
+
+`#! /bin/sh -e
+
+sudo -i ./snell-server
+
+exit 0`
+
+`wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh`
+
+
 
 ## Highlights
 
