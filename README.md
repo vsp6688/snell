@@ -1,6 +1,6 @@
 # snell install
 
-`apt update
+apt update
 
 https://github.com/surge-networks/snell/releases/download/v2.0.3/snell-server-v2.0.3-linux-amd64.zip
 
@@ -22,7 +22,7 @@ exit 0
 
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
-./tcp.sh`
+./tcp.sh
 
 
 
